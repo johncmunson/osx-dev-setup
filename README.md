@@ -27,7 +27,15 @@
 
 12. Bonus Cool Stuff:
 
-
+- https://developer.atlassian.com/blog/2015/11/scripting-with-node/
+- https://github.com/visionmedia/node-progress
+- https://github.com/chalk/chalk
+- https://github.com/tj/commander.js
+- https://github.com/yargs/yargs
+- https://github.com/motdotla/dotenv
+- https://github.com/kentcdodds/cross-env
+- https://github.com/shelljs/shx
+- https://github.com/shelljs/shelljs
 - https://github.com/sindresorhus/trash
 - https://github.com/sindresorhus/trash-cli
 - https://github.com/sindresorhus/empty-trash
