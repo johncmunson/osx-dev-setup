@@ -34,3 +34,20 @@ https://github.com/zeit/hyper
 
 11. Install `atom` editor
 https://atom.io/
+
+
+Bonus Cool Stuff:
+- https://github.com/sindresorhus/trash
+- https://github.com/sindresorhus/trash-cli
+- https://github.com/sindresorhus/empty-trash
+- https://github.com/sindresorhus/empty-trash-cli
+- https://github.com/sindresorhus/del
+- https://github.com/sindresorhus/del-cli
+- https://github.com/sindresorhus/make-dir
+- https://github.com/sindresorhus/move-file
+- https://github.com/sindresorhus/cpy
+- https://github.com/sindresorhus/cpy-cli
+- https://github.com/sindresorhus/cp-file
+- https://github.com/isaacs/node-glob
+- https://github.com/sindresorhus/multimatch
+- https://github.com/sindresorhus/matcher
