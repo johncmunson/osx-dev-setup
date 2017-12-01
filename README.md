@@ -29,7 +29,7 @@ https://github.com/github/hub
 9. Install `hub-zsh-completions`
 https://github.com/github/hub/blob/master/etc/hub.zsh_completion
 
-10. Install `hyperterm`
+10. Install `hyper` terminal
 https://github.com/zeit/hyper
 
 11. Install `atom` editor
