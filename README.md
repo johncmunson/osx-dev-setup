@@ -21,13 +21,18 @@
 
 9. Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
 
-10. Install [hyper](https://github.com/zeit/hyper) terminal
+10. Install [git-extras](https://github.com/tj/git-extras)
 
-11. Install [atom](https://atom.io/) editor
+11. Install [gitsome](https://github.com/donnemartin/gitsome)
 
-12. Bonus Cool Stuff:
+12. Install [hyper](https://github.com/zeit/hyper) terminal
+
+13. Install [atom](https://atom.io/) editor
+
+14. Bonus Cool Stuff:
 
 - https://developer.atlassian.com/blog/2015/11/scripting-with-node/
+- http://click.pocoo.org/5/
 - https://github.com/visionmedia/node-progress
 - https://github.com/chalk/chalk
 - https://github.com/tj/commander.js
