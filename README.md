@@ -4,8 +4,8 @@
 
 2. Install
 [node/npm](https://wsvincent.com/install-node-js-npm-mac/),
-[nvm](https://github.com/creationix/nvm), and
-[yarn](https://yarnpkg.com/en/)
+[n](https://github.com/tj/n), and
+[yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get `n` to work correctly.
 
 3. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
 
