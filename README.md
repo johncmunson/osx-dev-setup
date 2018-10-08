@@ -12,7 +12,7 @@
 
 6. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-7. Use homebrew to install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and add the following to your .zshrc
+7. Use homebrew to install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and add the following to the bottom of your .zshrc
 
 `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
 
