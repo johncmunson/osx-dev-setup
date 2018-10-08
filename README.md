@@ -1,5 +1,7 @@
 ### John's OS X Dev Setup
 
+** add a step for the preferred oh-my-zsh theme
+
 1. Install [homebrew](https://brew.sh/)
 
 2. Use homebrew to install [node/npm](https://wsvincent.com/install-node-js-npm-mac/)
