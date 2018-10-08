@@ -10,26 +10,26 @@
 
 5. Use homebrew to install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) and change to the default shell
 
-6. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and a preferred theme
+6. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-  - asdf
-  - asdf
-  - asdf
+7. Use homebrew to install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and add the following to your .zshrc
 
-7. Install [z](https://github.com/rupa/z)
+`source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
 
-8. Install [zsh-completions](https://github.com/zsh-users/zsh-completions)
+8. Install [z](https://github.com/rupa/z)
 
-9. Install [hub](https://github.com/github/hub)
+9. Install [zsh-completions](https://github.com/zsh-users/zsh-completions)
 
-10. Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
+10. Install [hub](https://github.com/github/hub)
 
-11. Install [git-extras](https://github.com/tj/git-extras)
+11. Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
 
-12. Install [gitsome](https://github.com/donnemartin/gitsome)
+12. Install [git-extras](https://github.com/tj/git-extras)
 
-13. Install [hyper](https://github.com/zeit/hyper) terminal
+13. Install [gitsome](https://github.com/donnemartin/gitsome)
 
-14. Install [atom](https://atom.io/) editor
+14. Install [hyper](https://github.com/zeit/hyper) terminal
 
-15. Install [Fira Sans](https://github.com/mozilla/Fira) and make it the default editor and terminal font
+15. Install [atom](https://atom.io/) editor
+
+16. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font
