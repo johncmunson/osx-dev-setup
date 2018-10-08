@@ -2,56 +2,30 @@
 
 1. Install [homebrew](https://brew.sh/)
 
-2. Install
-[node/npm](https://wsvincent.com/install-node-js-npm-mac/),
-[n](https://github.com/tj/n), and
-[yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get `n` to work correctly.
+2. Use homebrew to install [node/npm](https://wsvincent.com/install-node-js-npm-mac/)
 
-3. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
+3. Use npm to install [n](https://github.com/tj/n) and [yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get `n` to work correctly.
 
-4. Use homebrew to install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) and change to the default shell
+4. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
 
-5. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+5. Use homebrew to install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) and change to the default shell
 
-6. Install [z](https://github.com/rupa/z)
+6. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-7. Install [zsh-completions](https://github.com/zsh-users/zsh-completions)
+7. Install [z](https://github.com/rupa/z)
 
-8. Install [hub](https://github.com/github/hub)
+8. Install [zsh-completions](https://github.com/zsh-users/zsh-completions)
 
-9. Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
+9. Install [hub](https://github.com/github/hub)
 
-10. Install [git-extras](https://github.com/tj/git-extras)
+10. Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
 
-11. Install [gitsome](https://github.com/donnemartin/gitsome)
+11. Install [git-extras](https://github.com/tj/git-extras)
 
-12. Install [hyper](https://github.com/zeit/hyper) terminal
+12. Install [gitsome](https://github.com/donnemartin/gitsome)
 
-13. Install [atom](https://atom.io/) editor
+13. Install [hyper](https://github.com/zeit/hyper) terminal
 
-14. Bonus Cool Stuff:
+14. Install [atom](https://atom.io/) editor
 
-- https://developer.atlassian.com/blog/2015/11/scripting-with-node/
-- http://click.pocoo.org/5/
-- https://github.com/visionmedia/node-progress
-- https://github.com/chalk/chalk
-- https://github.com/tj/commander.js
-- https://github.com/yargs/yargs
-- https://github.com/motdotla/dotenv
-- https://github.com/kentcdodds/cross-env
-- https://github.com/shelljs/shx
-- https://github.com/shelljs/shelljs
-- https://github.com/sindresorhus/trash
-- https://github.com/sindresorhus/trash-cli
-- https://github.com/sindresorhus/empty-trash
-- https://github.com/sindresorhus/empty-trash-cli
-- https://github.com/sindresorhus/del
-- https://github.com/sindresorhus/del-cli
-- https://github.com/sindresorhus/make-dir
-- https://github.com/sindresorhus/move-file
-- https://github.com/sindresorhus/cpy
-- https://github.com/sindresorhus/cpy-cli
-- https://github.com/sindresorhus/cp-file
-- https://github.com/isaacs/node-glob
-- https://github.com/sindresorhus/multimatch
-- https://github.com/sindresorhus/matcher
+15. Install [Fira Sans](https://github.com/mozilla/Fira) and make it the default editor and terminal font
