@@ -28,8 +28,10 @@
 
 13. Install [gitsome](https://github.com/donnemartin/gitsome)
 
-14. Install [hyper](https://github.com/zeit/hyper) terminal
+14. Install [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
-15. Install [atom](https://atom.io/) editor
+15. Install [hyper](https://github.com/zeit/hyper) terminal
 
-16. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font
+16. Install [atom](https://atom.io/) editor
+
+17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font
