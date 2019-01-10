@@ -35,3 +35,8 @@
 16. Install [atom](https://atom.io/) editor
 
 17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font
+
+18. Use homebrew to [install vim](https://github.com/Homebrew/homebrew-core/issues/16317#issuecomment-319654482)
+
+19. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
+
