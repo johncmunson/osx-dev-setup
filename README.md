@@ -6,7 +6,7 @@
 
 3. Use npm to install [n](https://github.com/tj/n) and [yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get n to work correctly.
 
-_Alternative to steps 2 & 3... use the [n-install](https://github.com/mklement0/n-install) script to install n without having to install node first. Shouldn't have to fix n's permissions with this method. Then, install yarn using `brew install yarn --without-node`
+_Alternative to steps 2 & 3... use the [n-install](https://github.com/mklement0/n-install) script to install n without having to install node first. Shouldn't have to fix n's permissions with this method. Then, install yarn using `brew install yarn --without-node`_
 
 4. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
 
@@ -38,6 +38,8 @@ _Alternative to steps 2 & 3... use the [n-install](https://github.com/mklement0/
 
 17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font
 
-18. Use homebrew to install [vim](https://www.vim.org/)... `brew install vim` 
+18. Use homebrew to install [vim](https://www.vim.org/)... `brew install vim`
 
-19. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
+19. Install the vim plugin manager [vim-plug](https://github.com/junegunn/vim-plug)
+
+20. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
