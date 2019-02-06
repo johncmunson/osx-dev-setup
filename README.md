@@ -45,3 +45,5 @@ _Optional: Use homebrew to also install [neovim](https://github.com/neovim/neovi
 19. Install the vim plugin manager [vim-plug](https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation)
 
 20. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
+
+21. Use homebrew to install [pyenv](https://github.com/pyenv/pyenv)
