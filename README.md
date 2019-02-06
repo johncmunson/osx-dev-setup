@@ -42,6 +42,6 @@ _Alternative: use the [n-install](https://github.com/mklement0/n-install) script
 
 _Optional: Use homebrew to also install [neovim](https://github.com/neovim/neovim)_
 
-19. Install the vim plugin manager [vim-plug](https://github.com/junegunn/vim-plug)
+19. Install the vim plugin manager [vim-plug](https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation)
 
 20. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
