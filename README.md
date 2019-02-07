@@ -46,4 +46,19 @@ _Optional: Use homebrew to also install [neovim](https://github.com/neovim/neovi
 
 20. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
 
-21. Use homebrew to install [pyenv](https://github.com/pyenv/pyenv)
+21. Use homebrew to install [pyenv](https://github.com/pyenv/pyenv). Place this inside of `~/.zshenv`
+
+```
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+```
+
+22. Use homebrew to install [pipenv](https://github.com/pypa/pipenv). Add [the](https://pipenv.readthedocs.io/en/latest/advanced/#pipenv.environments.PIPENV_VENV_IN_PROJECT) [following](https://pipenv.readthedocs.io/en/latest/advanced/#pipenv.environments.PIPENV_VENV_IN_PROJECT) to `.zshrc`
+
+```
+# If set, creates .venv in your project directory. Default is to create new virtual environments in a global location.
+export PIPENV_VENV_IN_PROJECT=1
+# pipenv shell completions
+eval "$(pipenv --completion)"
+```
