@@ -1,5 +1,7 @@
 ### John's OS X Dev Setup
 
+_*TODO:* Learn a docker workflow, as it can supplement and/or replace some of the setup below._
+
 1. Install [homebrew](https://brew.sh/)
 
 2. Use homebrew to install [node/npm](https://wsvincent.com/install-node-js-npm-mac/)
