@@ -54,7 +54,7 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 ```
 
-22. Use homebrew to install [pipenv](https://github.com/pypa/pipenv). Add [the](https://pipenv.readthedocs.io/en/latest/advanced/#pipenv.environments.PIPENV_VENV_IN_PROJECT) [following](https://pipenv.readthedocs.io/en/latest/advanced/#pipenv.environments.PIPENV_VENV_IN_PROJECT) to `.zshrc`
+22. Use homebrew to install [pipenv](https://github.com/pypa/pipenv). Add [the](https://pipenv.readthedocs.io/en/latest/install/#virtualenv-mapping-caveat) [following](https://pipenv.readthedocs.io/en/latest/advanced/#shell-completion) to `.zshrc`
 
 ```
 # If set, creates .venv in your project directory. Default is to create new virtual environments in a global location.
