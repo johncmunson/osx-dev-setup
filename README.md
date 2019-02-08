@@ -2,7 +2,7 @@
 
 _**TODO:** Learn a docker workflow, as it can supplement and/or replace some of the setup below._
 
-_**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagnose/#pipenv-does-not-respect-pyenvs-global-and-local-python-versions) to the python section
+_**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagnose/#pipenv-does-not-respect-pyenvs-global-and-local-python-versions) to the python section._
 
 1. Install [homebrew](https://brew.sh/)
 
