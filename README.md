@@ -10,7 +10,7 @@ _**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagno
 
 3. Use npm to install [n](https://github.com/tj/n) and [yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get n to work correctly.
 
-_Alternative: use the [n-install](https://github.com/mklement0/n-install) script to install n without having to install node first. Shouldn't have to fix n's permissions with this method. Then, install yarn using `brew install yarn --without-node`_
+_Alternative: use the [n-install](https://github.com/mklement0/n-install) script to install n without having to install node first. Shouldn't have to fix n's permissions with this method. Then, install yarn using `brew install yarn --ignore-dependencies`_
 
 4. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
 
