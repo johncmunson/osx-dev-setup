@@ -24,7 +24,7 @@ _Alternative: use the [n-install](https://github.com/mklement0/n-install) script
 
 8. Install [z](https://github.com/rupa/z)
 
-9. Install [zsh-completions](https://github.com/zsh-users/zsh-completions)
+9. (Maybe) Install [zsh-completions](https://github.com/zsh-users/zsh-completions)
 
 10. Install [hub](https://github.com/github/hub)
 
