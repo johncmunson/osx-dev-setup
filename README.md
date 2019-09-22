@@ -28,7 +28,7 @@ _Alternative: use the [n-install](https://github.com/mklement0/n-install) script
 
 10. Install [hub](https://github.com/github/hub)
 
-11. Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
+11. (May not be necessary if hub was installed with Homebrew) Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
 
 12. Install [git-extras](https://github.com/tj/git-extras)
 
