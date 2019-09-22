@@ -6,15 +6,15 @@ _**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagno
 
 1. Install [homebrew](https://brew.sh/)
 
-2. Use homebrew to install [node/npm](https://wsvincent.com/install-node-js-npm-mac/)
+2. Use homebrew to install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) and change to the default shell. The method of doing this might change once Zsh becomes the standard macOS shell.
 
-3. Use npm to install [n](https://github.com/tj/n) and [yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get n to work correctly.
+3. Use homebrew to install [node/npm](https://wsvincent.com/install-node-js-npm-mac/)
+
+4. Use npm to install [n](https://github.com/tj/n) and [yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get n to work correctly.
 
 _Alternative: use the [n-install](https://github.com/mklement0/n-install) script to install n without having to install node first. Shouldn't have to fix n's permissions with this method. Then, install yarn using `brew install yarn --ignore-dependencies`_
 
-4. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
-
-5. Use homebrew to install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) and change to the default shell
+5. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
 
 6. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
