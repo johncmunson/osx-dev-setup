@@ -32,7 +32,7 @@ _Alternative: use the [n-install](https://github.com/mklement0/n-install) script
 
 12. Install [git-extras](https://github.com/tj/git-extras)
 
-13. Install [gitsome](https://github.com/donnemartin/gitsome)
+13. (Probably don't need this actually) Install [gitsome](https://github.com/donnemartin/gitsome)
 
 14. Install [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
