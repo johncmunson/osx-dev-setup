@@ -4,35 +4,35 @@ _**TODO:** Learn a docker workflow, as it can supplement and/or replace some of 
 
 _**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagnose/#pipenv-does-not-respect-pyenvs-global-and-local-python-versions) to the python section._
 
+0. (Optional) Install xcode from the app store. Then install the xcode command line tools `$ xcode-select --install`
+
 1. Install [homebrew](https://brew.sh/)
 
 2. Use homebrew to install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) and change to the default shell. The method of doing this might change once Zsh becomes the standard macOS shell.
 
-3. Use homebrew to install [node/npm](https://wsvincent.com/install-node-js-npm-mac/)
+3. Use the [`n-install`](https://github.com/mklement0/n-install) script to install n without having to install node first. `n-install` also comes with scripts for updating and uninstalling `n` itself.
 
-4. Use npm to install [n](https://github.com/tj/n) and [yarn](https://yarnpkg.com/en/). See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) for fixing permissions to get n to work correctly.
+4. Install yarn using `brew install yarn`. Because yarn installs it's own version of node as a dependency, there's a chance that you might need to update `$PATH` in `.zshrc` to point towards the place where `n` installs node to.
 
-_Alternative: use the [n-install](https://github.com/mklement0/n-install) script to install n without having to install node first. Shouldn't have to fix n's permissions with this method. Then, install yarn using `brew install yarn --ignore-dependencies`_
+_Alternative method: Install [n](https://github.com/tj/n) the normal way with npm. Still install [yarn](https://yarnpkg.com/en/) with homebrew. See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) if you run into permissions issues with n._
 
 5. Use homebrew to install [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
 
 6. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-7. Use homebrew to install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and add the following to the bottom of your .zshrc
-
-`source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+7. Use homebrew to install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [update `.zshrc` accordingly](https://formulae.brew.sh/formula/zsh-syntax-highlighting).
 
 8. Install [z](https://github.com/rupa/z)
 
-9. (Maybe) Install [zsh-completions](https://github.com/zsh-users/zsh-completions)
+9. Install [zsh-completions](https://github.com/zsh-users/zsh-completions) with homebrew and [update `.zshrc` accordingly](https://formulae.brew.sh/formula/zsh-completions).
 
 10. Install [hub](https://github.com/github/hub)
 
-11. (May not be necessary if hub was installed with Homebrew) Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion)
+11. Install [hub-zsh-completions](https://github.com/github/hub/blob/master/etc/hub.zsh_completion) (May not be necessary if hub was installed with Homebrew)
 
 12. Install [git-extras](https://github.com/tj/git-extras)
 
-13. (Probably don't need this actually) Install [gitsome](https://github.com/donnemartin/gitsome)
+13. Install [gitsome](https://github.com/donnemartin/gitsome) (optional)
 
 14. Install [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
