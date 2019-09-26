@@ -1,10 +1,8 @@
 ### John's OS X Dev Setup
 
-_**TODO:** Learn a docker workflow, as it can supplement and/or replace some of the setup below._
-
 _**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagnose/#pipenv-does-not-respect-pyenvs-global-and-local-python-versions) to the python section._
 
-0. (Optional) Install xcode from the app store. Then install the xcode command line tools `$ xcode-select --install`
+0. Install xcode from the app store. Then install the xcode command line tools `$ xcode-select --install` (optional)
 
 1. Install [homebrew](https://brew.sh/)
 
