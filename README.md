@@ -40,21 +40,21 @@ _Alternative method: Install [n](https://github.com/tj/n) the normal way with np
 
 15. Install [hyper](https://github.com/zeit/hyper) terminal
 
-16. Install [atom](https://atom.io/) editor
+16. Install [atom](https://atom.io/) editor. Set the UI Theme and Syntax Theme to One Dark.
 
-17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font
+17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font. Alternatively, use Operator Mono.
 
 18. Install [docker for mac](https://docs.docker.com/docker-for-mac/install/) and [docker zsh completions](https://docs.docker.com/compose/completion/)
 
-18. Use homebrew to install [vim](https://www.vim.org/)... `brew install vim`
+19. Use homebrew to install [vim](https://www.vim.org/)... `brew install vim`
 
-_Optional: Use homebrew to also install [neovim](https://github.com/neovim/neovim)_
+20. Use homebrew to also install [neovim](https://github.com/neovim/neovim)
 
-19. Install the vim plugin manager [vim-plug](https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation)
+21. Install the vim plugin manager [vim-plug](https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation)
 
-20. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
+22. Install [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus) for Atom
 
-21. Use homebrew to install [pyenv](https://github.com/pyenv/pyenv). Place this inside of `~/.zshenv`
+23. Use homebrew to install [pyenv](https://github.com/pyenv/pyenv). Place this inside of `~/.zshenv`
 
 ```
 if command -v pyenv 1>/dev/null 2>&1; then
@@ -62,7 +62,7 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 ```
 
-22. Use homebrew to install [pipenv](https://github.com/pypa/pipenv). Add [the](https://pipenv.readthedocs.io/en/latest/install/#virtualenv-mapping-caveat) [following](https://pipenv.readthedocs.io/en/latest/advanced/#shell-completion) to `.zshrc`
+24. Use homebrew to install [pipenv](https://github.com/pypa/pipenv). Add [the](https://pipenv.readthedocs.io/en/latest/install/#virtualenv-mapping-caveat) [following](https://pipenv.readthedocs.io/en/latest/advanced/#shell-completion) to `.zshrc`
 
 ```
 # If set, creates .venv in your project directory. Default is to create new virtual environments in a global location.
