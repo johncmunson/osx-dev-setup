@@ -1,6 +1,6 @@
 ### John's OS X Dev Setup
 
-_**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagnose/#pipenv-does-not-respect-pyenvs-global-and-local-python-versions) to the python section._
+_**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagnose/#pipenv-does-not-respect-pyenvs-global-and-local-python-versions) to the python section. In general, the stuff regarding Python needs reviewed._
 
 0. Install xcode from the app store. Then install the xcode command line tools `$ xcode-select --install` (optional)
 
