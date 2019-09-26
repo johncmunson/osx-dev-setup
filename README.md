@@ -10,6 +10,8 @@ _**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagno
 
 2. Use homebrew to install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/) and change to the default shell. The method of doing this might change once Zsh becomes the standard macOS shell.
 
+3. Install [homebrew shell completions](https://docs.brew.sh/Shell-Completion)
+
 3. Use the [`n-install`](https://github.com/mklement0/n-install) script to install n without having to install node first. `n-install` also comes with scripts for updating and uninstalling `n` itself.
 
 4. Install yarn using `brew install yarn`. Because yarn installs it's own version of node as a dependency, there's a chance that you might need to update `$PATH` in `.zshrc` to point towards the place where `n` installs node to.
