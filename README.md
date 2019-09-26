@@ -14,7 +14,7 @@ _**TODO:** Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagno
 
 3. Use the [`n-install`](https://github.com/mklement0/n-install) script to install n without having to install node first. `n-install` also comes with scripts for updating and uninstalling `n` itself.
 
-4. Install yarn using `brew install yarn`. Because yarn installs it's own version of node as a dependency, there's a chance that you might need to update `$PATH` in `.zshrc` to point towards the place where `n` installs node to.
+4. Install yarn using `brew install yarn`. Because yarn installs it's own version of node as a dependency, there's a chance that you might need to update `$PATH` in `.zshrc` so that the path to the node installed by n comes before the version install by yarn. Add this right below the `N_PREFIX` variable... `export PATH=$N_PREFIX/bin:$PATH`
 
 _Alternative method: Install [n](https://github.com/tj/n) the normal way with npm. Still install [yarn](https://yarnpkg.com/en/) with homebrew. See [this issue](https://github.com/tj/n/issues/416#issuecomment-342693217) if you run into permissions issues with n._
 
