@@ -44,6 +44,8 @@ _Alternative method: Install [n](https://github.com/tj/n) the normal way with np
 
 17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font
 
+18. Install [docker for mac](https://docs.docker.com/docker-for-mac/install/) and [docker zsh completions](https://docs.docker.com/compose/completion/)
+
 18. Use homebrew to install [vim](https://www.vim.org/)... `brew install vim`
 
 _Optional: Use homebrew to also install [neovim](https://github.com/neovim/neovim)_
