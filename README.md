@@ -22,9 +22,15 @@ _Alternative method: Install [n](https://github.com/tj/n) the normal way with np
 
 7. Use homebrew to install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [update `.zshrc` accordingly](https://formulae.brew.sh/formula/zsh-syntax-highlighting).
 
-8. Install [z](https://github.com/rupa/z)
+8. Use homebrew to install [zsh-completions](https://github.com/zsh-users/zsh-completions) and [update `.zshrc` accordingly](https://formulae.brew.sh/formula/zsh-completions). However, the instructions in the homebrew link are incomplete. They fail to mention that you have to update $fpath _after_ oh-my-zsh is sourced, and then you also need to call `autoload -Uz compinit && compinit`. If installed successfully, git tab completions should be working. All together now...
 
-9. Install [zsh-completions](https://github.com/zsh-users/zsh-completions) with homebrew and [update `.zshrc` accordingly](https://formulae.brew.sh/formula/zsh-completions).
+```
+source $ZSH/oh-my-zsh.sh
+fpath=($(brew --prefix)/share/zsh-completions $fpath)
+autoload -Uz compinit && compinit
+```
+
+9. Install [z](https://github.com/rupa/z)
 
 10. Install [hub](https://github.com/github/hub)
 
