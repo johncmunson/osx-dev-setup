@@ -8,6 +8,7 @@ _**TODO:**_
 
 
 0. Install xcode from the app store. Then install the xcode command line tools `$ xcode-select --install` (optional)
+    - May already be install on newer versions of macOS
 
 1. Install [homebrew](https://brew.sh/)
 
