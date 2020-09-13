@@ -41,6 +41,11 @@ fpath=($(brew --prefix)/share/zsh-completions $fpath)
 autoload -Uz compinit && compinit
 ```
 
+    If you aren't using oh-my-zsh, then here are the steps for installing zsh-completions...
+        - brew install zsh-completions
+        - [update `.zshrc`](https://formulae.brew.sh/formula/zsh-completions)
+        - You might need to run [compaudit | xargs chmod g-w](https://github.com/zsh-users/zsh-completions/issues/433#issuecomment-619321054)
+
 9. Install [z](https://github.com/rupa/z)
 
 10. Install [hub](https://github.com/github/hub)
