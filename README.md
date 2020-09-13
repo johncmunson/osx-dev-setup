@@ -2,6 +2,11 @@
 
 _**TODO:**_
 - Consider getting rid of oh-my-zsh and seeing if you can still have an excellent zsh experience without it.
+    - To get history cycling with the up/down arrows, add these two lines to .zshrc
+        ```
+        bindkey "^[[A" history-beginning-search-backward
+        bindkey "^[[B" history-beginning-search-forward
+        ```
 - Consider [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - Consider adding [this](https://pipenv.readthedocs.io/en/latest/diagnose/#pipenv-does-not-respect-pyenvs-global-and-local-python-versions) to the python section. In general, the stuff regarding Python needs reviewed.
 - Consider installing additional goodies such as... [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [ripgrep](https://github.com/BurntSushi/ripgrep), [the silver searcher](https://github.com/ggreer/the_silver_searcher), [ondir](https://swapoff.org/ondir.html), [stgit](https://github.com/ctmarinas/stgit), [etc](https://switowski.com/blog/favorite-cli-tools).
