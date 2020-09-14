@@ -2,6 +2,7 @@
 
 _**TODO:**_
 - Consider getting rid of oh-my-zsh and seeing if you can still have an excellent zsh experience without it.
+    - Get rid of the zsh framework (oh-my-zsh), and instead use the official zsh plugin manager ([antigen](https://github.com/zsh-users/antigen))
     - To get history cycling with the up/down arrows, add these two lines to .zshrc
         ```
         bindkey "^[[A" history-beginning-search-backward
