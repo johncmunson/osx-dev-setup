@@ -3,6 +3,19 @@
 _**TODO:**_
 - Consider getting rid of oh-my-zsh and seeing if you can still have an excellent zsh experience without it.
     - Get rid of the zsh framework (oh-my-zsh), and instead use the official zsh plugin manager ([antigen](https://github.com/zsh-users/antigen))
+    - To get a solid command prompt, try [pure](https://github.com/sindresorhus/pure)
+    - Or, you can add the following snippet to .zshrc. It will show your git branch, and it will add a newline between cli commands.
+        ```
+        # Customize the Prompt
+        # https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/
+        # https://superuser.com/a/986820
+        autoload -Uz vcs_info
+        precmd() { vcs_info }
+        zstyle ':vcs_info:git:*' formats 'on branch %b'
+        setopt PROMPT_SUBST
+        NEWLINE=$'\n'
+        PROMPT='${NEWLINE}${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
+        ```
     - To get history cycling with the up/down arrows, add these two lines to .zshrc
         ```
         bindkey "^[[A" history-beginning-search-backward
