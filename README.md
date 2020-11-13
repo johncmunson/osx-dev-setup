@@ -77,7 +77,7 @@ autoload -Uz compinit && compinit
 
 16. Install [atom](https://atom.io/) editor. Set the UI Theme and Syntax Theme to One Dark.
 
-17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font. Alternatively, use Operator Mono.
+17. Install [Fira](https://github.com/mozilla/Fira) and make Fira Mono the default editor and terminal font. Also, use Operator Mono and [Inter](https://rsms.me/inter/).
 
 18. Install [docker for mac](https://docs.docker.com/docker-for-mac/install/) and [docker zsh completions](https://docs.docker.com/compose/completion/)
 
