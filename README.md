@@ -26,9 +26,14 @@ _**TODO:**_
 - Consider installing additional goodies such as... [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [ripgrep](https://github.com/BurntSushi/ripgrep), [the silver searcher](https://github.com/ggreer/the_silver_searcher), [ondir](https://swapoff.org/ondir.html), [stgit](https://github.com/ctmarinas/stgit), [etc](https://switowski.com/blog/favorite-cli-tools).
 - Maybe, just maybe, try Fish instead of Zsh
 
+1. Configure what happens when holding a key down. The default is to get a popup for special characters, but I would rather have the keystroke repeat.
 
-0. Install xcode from the app store. Then install the xcode command line tools `$ xcode-select --install` (optional)
-    - May already be install on newer versions of macOS
+```
+$ defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
+1. Install xcode from the app store. Then install the xcode command line tools `$ xcode-select --install` (optional)
+    - May already be installed on newer versions of macOS
 
 1. Install [homebrew](https://brew.sh/)
 
