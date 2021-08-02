@@ -26,7 +26,7 @@ _**TODO:**_
 - Consider installing additional goodies such as... [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [ripgrep](https://github.com/BurntSushi/ripgrep), [the silver searcher](https://github.com/ggreer/the_silver_searcher), [ondir](https://swapoff.org/ondir.html), [stgit](https://github.com/ctmarinas/stgit), [etc](https://switowski.com/blog/favorite-cli-tools).
 - Maybe, just maybe, try Fish instead of Zsh
 
-1. Configure what happens when holding a key down. The default is to get a popup for special characters, but I would rather have the keystroke repeat.
+1. Configure what happens when holding a key down. The default is to get a popup for special characters, but I would rather have the keystroke repeat. Also, go to System Preferences -> Keyboard and increase "Key Repeat" and "Delay Until Repeat".
 
 ```
 $ defaults write -g ApplePressAndHoldEnabled -bool false
